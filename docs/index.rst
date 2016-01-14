@@ -11,14 +11,12 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-.. automodule:: icontrol
-   :members:
-
 Indices and tables
 ==================
 * :mod:`icontrol-rest`
-
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
 
+.. autoclass:: iControlRESTSession
+   :members:
