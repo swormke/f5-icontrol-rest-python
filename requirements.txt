@@ -1,5 +1,9 @@
 requests >= 2.9.1
 
+# Docs Requirements
+sphinx
+recommonmark
+
 # Test Requirements
 pytest
 pytest-coverage
