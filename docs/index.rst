@@ -6,8 +6,6 @@
 Welcome to f5-icontrol-rest's documentation!
 ============================================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
@@ -16,3 +14,9 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+.. _test-section:
+
+Test Section
+------------
+:mod:`icontrol`
