@@ -13,10 +13,6 @@ Contents:
 
 Indices and tables
 ==================
-* :mod:`icontrol-rest`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
-.. autoclass:: iControlRESTSession
-   :members:
