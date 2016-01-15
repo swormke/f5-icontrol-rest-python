@@ -3,7 +3,8 @@ requests >= 2.9.1
 # Docs Requirements
 sphinx
 recommonmark
-autoapi
+sphinxcontrib-golangdomain==0.1.3dev
+sphinx-autoapi
 
 # Test Requirements
 pytest
