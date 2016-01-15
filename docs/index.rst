@@ -20,3 +20,5 @@ Indices and tables
 Test Section
 ------------
 :mod:`icontrol`
+
+icontrol/icontrol

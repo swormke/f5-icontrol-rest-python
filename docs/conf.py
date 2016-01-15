@@ -32,7 +32,13 @@ from recommonmark.parser import CommonMarkParser
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.inheritance_diagram',
+    'spinx.ext.viewcode',
+    'autoapi.sphinx'
 ]
+
+autoapi_modules = {'icontrol': None}
 
 #    'sphinx.ext.doctest',
 #    'sphinx.ext.viewcode',

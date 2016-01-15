@@ -3,6 +3,7 @@ requests >= 2.9.1
 # Docs Requirements
 sphinx
 recommonmark
+autoapi
 
 # Test Requirements
 pytest
