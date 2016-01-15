@@ -1,7 +1,7 @@
 requests >= 2.9.1
 
 # Docs Requirements
-sphinx
+sphinx >= 1.3.4
 #recommonmark
 sphinxcontrib-golangdomain==0.1.3dev
 sphinx-autoapi
