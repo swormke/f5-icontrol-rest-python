@@ -35,10 +35,13 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.inheritance_diagram',
     'sphinx.ext.viewcode',
-    'autoapi.sphinx'
+    #'autoapi.sphinx'
+    'autoapi.extenstion'
 ]
 
-autoapi_modules = {'icontrol': None}
+autoapi_type = 'python'
+autoapi_dir = 'icontrol'
+#autoapi_modules = {'icontrol': None}
 
 #    'sphinx.ext.doctest',
 #    'sphinx.ext.viewcode',
