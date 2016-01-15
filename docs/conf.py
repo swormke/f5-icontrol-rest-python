@@ -36,7 +36,7 @@ extensions = [
     'sphinx.ext.inheritance_diagram',
     'sphinx.ext.viewcode',
     #'autoapi.sphinx'
-    'autoapi.extenstion'
+    'autoapi.extension'
 ]
 
 autoapi_type = 'python'
