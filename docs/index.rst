@@ -9,7 +9,7 @@ Welcome to f5-icontrol-rest's documentation!
 .. toctree::
    :maxdepth: 2
 
-   icontrol/icontrol
+   apidocs/modules
 
 Indices and tables
 ==================
@@ -23,4 +23,23 @@ Test Section
 ------------
 :mod:`icontrol`
 
+
+icontrol.session module
+-----------------------
+
+.. automodule:: icontrol.session
+    :members:
+    :undoc-members:
+    :show-inheritance:
+    :noindex:
+
+
+Module contents
+---------------
+
+.. automodule:: icontrol
+    :members:
+    :undoc-members:
+    :show-inheritance:
+    :noindex:
 

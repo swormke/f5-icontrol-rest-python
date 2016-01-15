@@ -225,10 +225,11 @@ def decorate_HTTP_verb_method(method):
 
 
 class iControlRESTSession(object):
-    """XXX
+    """This is some more real documentation
 
     XXXX
     """
+
     def __init__(self, username, password, **kwargs):
         timeout = kwargs.pop('timeout', 30)
         loglevel = kwargs.pop('loglevel', logging.DEBUG)
