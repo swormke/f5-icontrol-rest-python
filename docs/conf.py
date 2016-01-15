@@ -40,7 +40,7 @@ extensions = [
 ]
 
 autoapi_type = 'python'
-autoapi_dir = 'icontrol'
+autoapi_dirs = ['../icontrol']
 #autoapi_modules = {'icontrol': None}
 
 #    'sphinx.ext.doctest',
