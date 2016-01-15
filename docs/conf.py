@@ -34,7 +34,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.inheritance_diagram',
-    'spinx.ext.viewcode',
+    'sphinx.ext.viewcode',
     'autoapi.sphinx'
 ]
 
