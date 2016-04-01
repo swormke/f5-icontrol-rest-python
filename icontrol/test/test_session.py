@@ -267,3 +267,14 @@ def test_wrapped_put_success_with_data(iCRS, uparts):
     assert iCRS.session.put.call_args ==\
         mock.call('https://0.0.0.0/mgmt/tm/root/RESTiface/~AFN~AIN',
                   data={'b': 2})
+
+def test_icontrol_version_set(iCRS, uparts):
+    iCRS.get(uparts['base_uri'], partition='AFN', name='AIN',
+             uri_as_parts=True,
+             icontrol_version='11.6.0',
+             data={'b': 2},
+             params={'$filter': 'partition eq Common'})
+    assert iCRS.session.get.call_args ==\
+        mock.call('https://0.0.0.0/mgmt/tm/root/RESTiface/~AFN~AIN',
+                  data={'b': 2},
+                  params={'ver': '11.6.0', '$filter': 'partition eq Common'})

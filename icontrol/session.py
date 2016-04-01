@@ -228,11 +228,19 @@ def decorate_HTTP_verb_method(method):
         name = kwargs.pop('name', '')
         suffix = kwargs.pop('suffix', '')
         uri_as_parts = kwargs.pop('uri_as_parts', False)
+        version = kwargs.pop('icontrol_version', '')
+        params = kwargs.pop('params', {})
         if uri_as_parts:
             REST_uri = generate_bigip_uri(RIC_base_uri, partition, name,
                                           suffix, **kwargs)
         else:
             REST_uri = RIC_base_uri
+
+        if version:
+            params.update({'ver': version})
+        if params:
+            kwargs.update({'params': params})
+
         pre_message = "%s WITH uri: %s AND suffix: %s AND kwargs: %s" %\
             (method.__name__, REST_uri, suffix, kwargs)
         logging.debug(pre_message)
